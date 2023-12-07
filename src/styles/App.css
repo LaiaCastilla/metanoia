@@ -19,9 +19,12 @@
   --brown-1: #d7bfa9;
   --brown-2: #ab744e;
   --pink-1: #e9cabb;
+  --title: dream-avenue, serif;
+  --text: cormorand-garamond, serif;
+  --navbar: "Noto Serif Display", serif;
 }
 
 body {
   background-color: var(--bg);
-  font-family: cormorand-garamond, serif;
+  font-family: var(--text);
 }

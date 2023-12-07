@@ -1,7 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,700;1,500&family=Noto+Serif+Display:wght@400;700&display=swap");
 .NavigationBar {
   max-width: 100%;
-  font-family: "Noto Serif Display", serif;
+  font-family: var(--navbar);
   padding: 0px 45px;
   background-color: var(--green-1);
 }/*# sourceMappingURL=NavigationBar.css.map */
