@@ -1,5 +1,5 @@
 import React from "react";
-import Container from "react-bootstrap/Container";
+// import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
@@ -8,7 +8,7 @@ import logo from "../logo.svg";
 function NavigationBar() {
   return (
     <Navbar expand="lg">
-      <Container>
+      {/* <Container> */}
         <Navbar.Brand href="#home">
           <img
             src={logo}
@@ -34,7 +34,7 @@ function NavigationBar() {
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
-      </Container>
+      {/* </Container> */}
     </Navbar>
   );
 }
