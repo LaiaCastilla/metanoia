@@ -1,0 +1,22 @@
+.Hero {
+  height: 95vh;
+  background: url("../../img/carousel/womanmountain.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  &__content {
+    display: flex;
+    &--title {
+      font-family: var(--title);
+      font-size: 130px;
+      max-width: 817px;
+      margin-top: 300px;
+      margin-left: 173px;
+      color: black;
+    }
+    &--logo {
+      margin-top: 250px;
+    }
+  }
+}
