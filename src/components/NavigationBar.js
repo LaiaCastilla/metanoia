@@ -7,7 +7,7 @@ import logo from "../logo.svg";
 
 function NavigationBar() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="lg">
       <Container>
         <Navbar.Brand href="#home">
           <img
