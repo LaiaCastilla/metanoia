@@ -4,11 +4,13 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import logo from "../logo.svg";
+import "../styles/stylesComponents/NavigationBar.scss";
 
 function NavigationBar() {
   return (
-    <Navbar expand="lg">
-      {/* <Container> */}
+    <div className="NavigationBar">
+      <Navbar expand="lg">
+        {/* <Container> */}
         <Navbar.Brand href="#home">
           <img
             src={logo}
@@ -26,7 +28,12 @@ function NavigationBar() {
               Accueil
             </Nav.Link>
             <Nav.Link href="#about">À propos</Nav.Link>
-            <NavDropdown title="Soins" id="basic-nav-dropdown">
+            <NavDropdown
+              title="Soins"
+              id="dropdown-menu-align-end"
+              className="drop-left"
+              align="end"
+            >
               <NavDropdown.Item href="#action/3.1">
                 Hypnothérapie
               </NavDropdown.Item>
@@ -34,8 +41,9 @@ function NavigationBar() {
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
-      {/* </Container> */}
-    </Navbar>
+        {/* </Container> */}
+      </Navbar>
+    </div>
   );
 }
 

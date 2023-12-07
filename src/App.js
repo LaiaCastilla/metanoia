@@ -3,8 +3,9 @@ import "./styles/App.css";
 
 function App() {
   return (
-    <div className="App container-fluid">
+    <div className="App">
       <NavigationBar />
+      <div className="container-fluid"></div>
     </div>
   );
 }
