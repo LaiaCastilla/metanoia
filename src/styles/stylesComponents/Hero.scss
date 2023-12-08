@@ -35,12 +35,13 @@ $color: var(--green-2);
   flex-shrink: 0;
   border-radius: 6px;
   background-color: var(--green-2);
-  color: #000;
+  color: 0000;
   text-align: center;
   font-size: 40px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
 
   &:hover {
     background-color: var(--green-3);
