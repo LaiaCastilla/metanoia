@@ -6,7 +6,18 @@ function Hero() {
   return (
     <div className="Hero">
       <div className="Hero__content container-fluid">
-        <h1 className="Hero__content--title">METANOIA THERAPY</h1>
+        <div className="Hero__content--left">
+          <h1 className="Hero__content--title">METANOIA THERAPY</h1>
+          <span className="Hero__content--btns">
+            {/* two buttons */}
+            <button variant="success" className="cta-btn btn">
+              Hypnothérapie
+            </button>
+            <button variant="success" className="cta-btn btn">
+              Reiki
+            </button>
+          </span>
+        </div>
         <img
           src={logo}
           alt="Metanoia logo"

@@ -11,12 +11,31 @@
       font-family: var(--title);
       font-size: 130px;
       max-width: 817px;
-      margin-top: 300px;
+      margin-top: 250px;
       margin-left: 173px;
       color: black;
+    }
+    &--btns {
+      margin-top: 30px;
+      display: flex;
+      justify-content: space-evenly;
+      padding-left: 90px;
     }
     &--logo {
       margin-top: 250px;
     }
   }
+}
+.cta-btn {
+  width: 326px;
+  height: 91px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  background-color: var(--green-2);
+  color: #000;
+  text-align: center;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
