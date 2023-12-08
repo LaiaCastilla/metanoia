@@ -1,3 +1,4 @@
+$color: var(--green-2);
 .Hero {
   height: 95vh;
   background: url("../../img/carousel/womanmountain.jpg");
@@ -38,4 +39,9 @@
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+
+  &:hover {
+    background-color: var(--green-3);
+    color: var(--green-1);
+  }
 }
