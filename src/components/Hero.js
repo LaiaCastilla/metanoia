@@ -21,8 +21,7 @@ function Hero() {
         <img
           src={logo}
           alt="Metanoia logo"
-          width="390"
-          height="390"
+
           className="Hero__content--logo d-inline-block"
         />
       </div>

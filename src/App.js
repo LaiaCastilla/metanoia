@@ -7,6 +7,7 @@ function App() {
     <div className="App">
       <NavigationBar />
       <Hero />
+
       <div className="container-fluid"></div>
     </div>
   );
