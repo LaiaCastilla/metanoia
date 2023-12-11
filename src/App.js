@@ -1,12 +1,13 @@
 import NavigationBar from "./components/NavigationBar";
-import Hero from "./components/Hero";
+
 import "./styles/App.css";
+import Home from "./components/Home";
 
 function App() {
   return (
     <div className="App">
       <NavigationBar />
-      <Hero />
+      <Home />
 
       <div className="container-fluid"></div>
     </div>
