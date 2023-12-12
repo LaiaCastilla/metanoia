@@ -4,6 +4,8 @@
   // so the child divs can occupy all the heigh of the parent div
   display: flex;
   flex-direction: column;
+  position: relative;
+  max-height: 2000px;
 }
 .citation {
   max-width: 100%;
@@ -32,7 +34,8 @@
 .contact__content {
   position: relative;
   z-index: -1;
-  top: -100px;
+  height: 100%;
+  // top: -100px;
 
   &--paint {
     position: absolute;
@@ -49,7 +52,7 @@
 
   &--leaf2 {
     position: absolute;
-    bottom: 116px;
+    bottom: 250px;
     right: 0px;
     z-index: 1;
   }
@@ -81,5 +84,26 @@
       font-size: 20px;
       font-weight: 300;
     }
+  }
+}
+.contact__footer {
+  position: relative;
+  top: -200px;
+  margin: 0 auto;
+  text-align: center;
+  &--email {
+    color: var(--green-4);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  &--logos {
+    margin-top: 61px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 52px;
+    fill: var(--green-4);
   }
 }

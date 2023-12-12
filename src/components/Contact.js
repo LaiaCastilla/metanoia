@@ -79,8 +79,8 @@ function Contact() {
           </div>
           <div className="contact__footer--logos">
             {" "}
-            <img src={facebook} alt="facebook" />
-            <img src={instagram} alt="instagram" />
+            <img src={facebook} alt="facebook" width={65} height={65} />
+            <img src={instagram} alt="instagram" width={65} />
           </div>
         </div>
       </div>
