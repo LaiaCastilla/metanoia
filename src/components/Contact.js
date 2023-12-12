@@ -2,6 +2,7 @@ import React from "react";
 import olive from "../img/decor/olive.svg";
 import leaf1 from "../img/decor/ContactLeaf1.svg";
 import leaf2 from "../img/decor/ContactLeaf2.svg";
+import paint from "../img/decor/ContactPaint.svg";
 import "../styles/stylesComponents/Contact.scss";
 
 function Contact() {
@@ -25,8 +26,18 @@ function Contact() {
         {/* </figure> */}
       </div>
       <div className="contact__background">
+        <img
+          src={paint}
+          alt="paint"
+          className="contact__background--paint"
+          width="100%"
+        />
         <img src={leaf1} alt="leaf" className="contact__background--leaf1" />
-        <img src={leaf2} alt="leaf" className="contact__background--leaf2" />
+        <img
+          src={leaf2}
+          alt="leaf"
+          className="contact__background--leaf2"
+        />{" "}
       </div>
     </div>
   );

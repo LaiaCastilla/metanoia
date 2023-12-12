@@ -27,4 +27,5 @@
 body {
   background-color: var(--bg);
   font-family: var(--text);
+  max-width: 100%;
 }

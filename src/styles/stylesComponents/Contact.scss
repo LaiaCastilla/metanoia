@@ -1,3 +1,7 @@
+.contact {
+  // Avoid images that come out of the div to modify the size of the viewport
+  overflow: hidden;
+}
 .citation {
   max-width: 100%;
   position: relative;
@@ -21,18 +25,31 @@
   display: flex;
   width: 974px;
   height: 129px;
-  flex-direction: column;
-  justify-content: center;
-  flex-shrink: 0;
+
 }
 .contact__background {
   position: relative;
-  z-index: 1;
+  z-index: -1;
   top: -100px;
+  margin: 0 auto;
+  width: 100%;
+
+  &--paint {
+    position: absolute;
+    top: 200px;
+    left: 0;
+    z-index: 0;
+    flex-shrink: 0;
+  }
+  &--leaf1 {
+    position: relative;
+    z-index: 2;
+  }
 
   &--leaf2 {
     position: absolute;
-    bottom: 176px;
+    bottom: 116px;
     right: -83px;
+    z-index: 1;
   }
 }
