@@ -3,6 +3,7 @@ import olive from "../img/decor/olive.svg";
 import leaf1 from "../img/decor/ContactLeaf1.svg";
 import leaf2 from "../img/decor/ContactLeaf2.svg";
 import paint from "../img/decor/ContactPaint.svg";
+import audrey from "../img/Audrey.svg";
 import "../styles/stylesComponents/Contact.scss";
 
 function Contact() {
@@ -38,6 +39,12 @@ function Contact() {
           alt="leaf"
           className="contact__background--leaf2"
         />{" "}
+        <div className="contact__content container-fluid">
+          <h2 className="contact__content--title">Hello et bienvenue</h2>
+          <div className="contact__content--text">
+            <img src={audrey} alt="audrey" />
+          </div>
+        </div>
       </div>
     </div>
   );

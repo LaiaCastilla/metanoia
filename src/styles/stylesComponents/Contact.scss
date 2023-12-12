@@ -1,6 +1,9 @@
 .contact {
   // Avoid images that come out of the div to modify the size of the viewport
   overflow: hidden;
+  // so the child divs can occupy all the heigh of the parent div
+  display: flex;
+  flex-direction: column;
 }
 .citation {
   max-width: 100%;
@@ -25,7 +28,6 @@
   display: flex;
   width: 974px;
   height: 129px;
-
 }
 .contact__background {
   position: relative;
@@ -33,23 +35,45 @@
   top: -100px;
   margin: 0 auto;
   width: 100%;
-
+  height: fit-content;
   &--paint {
     position: absolute;
-    top: 200px;
+    top: 230px;
     left: 0;
     z-index: 0;
     flex-shrink: 0;
+    opacity: 0.5;
   }
   &--leaf1 {
     position: relative;
-    z-index: 2;
+    z-index: 1;
   }
 
   &--leaf2 {
     position: absolute;
-    bottom: 116px;
+    bottom: 0px;
     right: -83px;
     z-index: 1;
+  }
+}
+.contact__content {
+  position: relative;
+  z-index: 2;
+  top: -450px;
+  margin: 0 auto;
+  width: 100%;
+
+  &--title {
+    font-family: var(--title);
+    color: #000;
+    text-align: center;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  &--text {
+    display: flex;
+    margin: 142px 117px 229px 189px;
   }
 }
