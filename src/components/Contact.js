@@ -9,7 +9,7 @@ import instagram from "../img/logos/instagram.svg";
 
 import "../styles/stylesComponents/Contact.scss";
 
-function Contact() {
+export default function Contact() {
   return (
     <div className="contact">
       <div className="citation">
@@ -75,17 +75,34 @@ function Contact() {
         </div>
         <div className="contact__footer">
           <div className="contact__footer--email">
-            metanoia-therapy@outlook.com
+            <a
+              href="mailto:metanoia-therapy@outlook.com"
+              title="Envoyer un mail"
+            >
+              metanoia-therapy@outlook.com
+            </a>
           </div>
           <div className="contact__footer--logos">
             {" "}
-            <img src={facebook} alt="facebook" width={65} height={65} />
-            <img src={instagram} alt="instagram" width={65} />
+            <a
+              href="https://www.facebook.com/"
+              title="Mon compte Facebook"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={facebook} alt="facebook" width={65} height={65} />
+            </a>
+            <a
+              href="https://www.instagram.com/"
+              title="Mon compte Instagram"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={instagram} alt="instagram" width={65} />
+            </a>
           </div>
         </div>
       </div>
     </div>
   );
 }
-
-export default Contact;

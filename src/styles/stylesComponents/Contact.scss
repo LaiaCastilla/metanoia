@@ -97,7 +97,10 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    transition: all 200ms ease-in-out;
+
   }
+
   &--logos {
     margin-top: 61px;
     display: flex;
