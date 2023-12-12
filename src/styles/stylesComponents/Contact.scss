@@ -11,9 +11,28 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #fff;
-  padding: 10px 20px;
-  font-size: 20px;
+  color: var(--bg);
+  font-family: var(--title);
   text-align: center;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  width: 974px;
+  height: 129px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
 }
+.contact__background {
+  position: relative;
+  z-index: 1;
+  top: -100px;
 
+  &--leaf2 {
+    position: absolute;
+    bottom: 176px;
+    right: -83px;
+  }
+}
