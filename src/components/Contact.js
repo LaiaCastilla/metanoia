@@ -4,6 +4,9 @@ import leaf1 from "../img/decor/ContactLeaf1.svg";
 import leaf2 from "../img/decor/ContactLeaf2.svg";
 import paint from "../img/decor/ContactPaint.svg";
 import audrey from "../img/Audrey.svg";
+import facebook from "../img/logos/facebook.svg";
+import instagram from "../img/logos/instagram.svg";
+
 import "../styles/stylesComponents/Contact.scss";
 
 function Contact() {
@@ -26,7 +29,6 @@ function Contact() {
           </figcaption> */}
         {/* </figure> */}
       </div>
-      <div className="contact__background"></div>
       <div className="contact__content container-fluid">
         <img
           src={paint}
@@ -69,6 +71,16 @@ function Contact() {
             traiter sans prendre en compte la vue d’ensemble dans une démarche
             holistique. <br /> <br /> C’est ainsi que Metanoia Therapy est née
             et que nous allons ensemble écrire la suite de l’histoire…
+          </div>
+        </div>
+        <div className="contact__footer">
+          <div className="contact__footer--email">
+            metanoia-therapy@outlook.com
+          </div>
+          <div className="contact__footer--logos">
+            {" "}
+            <img src={facebook} alt="facebook" />
+            <img src={instagram} alt="instagram" />
           </div>
         </div>
       </div>
