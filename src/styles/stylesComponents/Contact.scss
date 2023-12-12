@@ -10,7 +10,6 @@
 .citation {
   max-width: 100%;
   position: relative;
-  //   display: inline-block;
 }
 .citation img {
   display: block;
@@ -33,7 +32,7 @@
 }
 .contact__content {
   position: relative;
-  z-index: -1;
+  z-index: 1;
   height: 100%;
   // top: -100px;
 
@@ -91,15 +90,6 @@
   top: -100px;
   margin: 0 auto;
   text-align: center;
-  &--email {
-    color: var(--green-4);
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    transition: all 200ms ease-in-out;
-
-  }
 
   &--logos {
     margin-top: 61px;
@@ -108,5 +98,26 @@
     align-items: center;
     gap: 52px;
     fill: var(--green-4);
+    transition: all 200ms ease-in-out;
+  }
+}
+.contact__footer--email a {
+  text-decoration: none;
+  color: var(--green-4);
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  transition: all 200ms ease-in-out;
+  &:hover {
+    color: var(--green-3);
+    cursor: text;
+  }
+}
+.contact__footer--logos a {
+  transition: all 200ms ease-in-out;
+  :hover {
+    cursor: pointer;
+    transform: scale(1.2);
   }
 }
