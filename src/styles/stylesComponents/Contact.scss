@@ -29,13 +29,11 @@
   width: 974px;
   height: 129px;
 }
-.contact__background {
+.contact__content {
   position: relative;
   z-index: -1;
   top: -100px;
-  margin: 0 auto;
-  width: 100%;
-  height: fit-content;
+
   &--paint {
     position: absolute;
     top: 230px;
@@ -51,33 +49,31 @@
 
   &--leaf2 {
     position: absolute;
-    bottom: 0px;
-    right: -83px;
+    bottom: 116px;
+    right: 0px;
     z-index: 1;
   }
-}
-.contact__content {
-  position: relative;
-  z-index: 2;
-  top: -450px;
-  margin: 0 auto;
-  width: 100%;
-  font-family: var(--text);
 
   &--title {
     font-family: var(--title);
+    position: relative;
+    top: -450px;
     color: #000;
     text-align: center;
     font-size: 90px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    z-index: 9;
   }
   &--text {
     display: flex;
     align-items: flex-end;
+    position: relative;
+    top: -450px;
+    z-index: 9;
     gap: 26px;
-    margin: 142px 117px 229px 189px;
+    margin: 142px 117px 0px 189px;
 
     &-paragraph {
       color: #000;
