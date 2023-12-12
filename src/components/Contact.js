@@ -46,7 +46,7 @@ export default function Contact() {
             className="contact__content--text-Img"
           />
           <div className="contact__content--text-paragraph">
-            Que vous dire sur moi ? Je m’appelle Audrey et que j’ai 31 ans. Cela
+            Que vous dire sur moi ? Je m’appelle Audrey et j’ai 31 ans. Cela
             peut paraitre bien jeune, mais croyez-moi mon âme n’a pas choisi la
             facilité dans cette nouvelle incarnation ! ce sont des années
             marquées par les leçons de vie qui m’ont fait grandir à vitesse
@@ -99,6 +99,17 @@ export default function Contact() {
               rel="noreferrer"
             >
               <img src={instagram} alt="instagram" width={65} />
+            </a>
+          </div>
+          <div className="signature">
+            Conçu et developpé par
+            <a
+              href="https://laiacastilla.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {" "}
+              Laia
             </a>
           </div>
         </div>
