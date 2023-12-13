@@ -22,7 +22,7 @@ function NavigationBar() {
           Metanoia Therapy
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
+        <Navbar.Collapse id="basic-navbar-nav" align="center">
           <Nav className="ms-auto">
             <Nav.Link href="#home" className="active">
               Accueil

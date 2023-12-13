@@ -40,12 +40,7 @@ export default function Contact() {
         <img src={leaf2} alt="leaf" className="contact__content--leaf2" />{" "}
         <h2 className="contact__content--title">Hello et bienvenue</h2>
         <div className="contact__content--text">
-          <img
-            src={audrey}
-            alt="audrey"
-            className="contact__content--text-Img"
-          />
-          <div className="contact__content--text-paragraph">
+          <div className="contact__content--text-paragraph order-sm-2">
             Que vous dire sur moi ? Je m’appelle Audrey et j’ai 31 ans. Cela
             peut paraitre bien jeune, mais croyez-moi mon âme n’a pas choisi la
             facilité dans cette nouvelle incarnation ! ce sont des années
@@ -72,6 +67,11 @@ export default function Contact() {
             holistique. <br /> <br /> C’est ainsi que Metanoia Therapy est née
             et que nous allons ensemble écrire la suite de l’histoire…
           </div>
+          <img
+            src={audrey}
+            alt="audrey"
+            className="contact__content--text-Img order-sm-1"
+          />
         </div>
         <div className="contact__footer">
           <div className="contact__footer--email">
