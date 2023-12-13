@@ -68,6 +68,7 @@
   }
   &--text {
     display: flex;
+    // to make them align at the bottom
     align-items: flex-end;
     justify-content: center;
     position: relative;
@@ -170,9 +171,9 @@
     }
 
     &--leaf2 {
-      // bottom: 800px;
       bottom: 250px;
       right: 200px;
+      // flip the image
       transform: scalex(-1);
       opacity: 0.5;
       max-width: 50%;
@@ -184,6 +185,7 @@
       font-size: 45px;
     }
     &--text {
+      // to make the text and the image responsives
       flex: column;
       flex-wrap: wrap;
       top: -350px;
