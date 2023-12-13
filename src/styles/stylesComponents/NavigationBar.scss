@@ -6,3 +6,8 @@
   font-size: 20px;
   font-style: normal;
 }
+@media (max-width: 576px) {
+  .NavigationBar {
+    padding: 0px 20px;
+  }
+}
