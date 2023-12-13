@@ -6,7 +6,16 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import logo from "../logo.svg";
 import "../styles/stylesComponents/NavigationBar.scss";
 
-function NavigationBar() {
+function NavigationBar(props) {
+  function toHome(event) {
+    event.preventDefault();
+    props.setPage("home");
+  }
+
+  function toAbout(event) {
+    event.preventDefault();
+    props.setPage("about");
+  }
   return (
     <div className="NavigationBar">
       <Navbar expand="lg">
@@ -25,10 +34,12 @@ function NavigationBar() {
         {/* To center the options in smaller devices */}
         <Navbar.Collapse id="basic-navbar-nav" align="center">
           <Nav className="ms-auto">
-            <Nav.Link href="#home" className="active">
+            <Nav.Link href="#home" className="active" onClick={toHome}>
               Accueil
             </Nav.Link>
-            <Nav.Link href="#about">À propos</Nav.Link>
+            <Nav.Link href="#about" onClick={toAbout}>
+              À propos
+            </Nav.Link>
             <NavDropdown
               title="Soins"
               id="dropdown-menu-align-end"
