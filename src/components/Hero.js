@@ -6,7 +6,12 @@ function Hero() {
   return (
     <div className="Hero">
       <div className="Hero__content container-fluid">
-        <div className="Hero__content--left">
+        <img
+          src={logo}
+          alt="Metanoia logo"
+          className="Hero__content--logo d-inline-block order-sm-2"
+        />
+        <div className="Hero__content--left order-sm-1">
           <h1 className="Hero__content--title">METANOIA THERAPY</h1>
           <span className="Hero__content--btns">
             {/* two buttons */}
@@ -18,12 +23,6 @@ function Hero() {
             </button>
           </span>
         </div>
-        <img
-          src={logo}
-          alt="Metanoia logo"
-
-          className="Hero__content--logo d-inline-block"
-        />
       </div>
     </div>
   );
