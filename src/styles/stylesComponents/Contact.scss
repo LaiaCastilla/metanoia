@@ -143,3 +143,13 @@
     top: -250px;
   }
 }
+@media (max-width: 576px) {
+  .citation__text {
+    font-size: 25px;
+    top: 40%;
+    max-width: 90%;
+  }
+  .citation {
+    height: 238px;
+  }
+}
