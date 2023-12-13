@@ -34,10 +34,18 @@ function NavigationBar(props) {
         {/* To center the options in smaller devices */}
         <Navbar.Collapse id="basic-navbar-nav" align="center">
           <Nav className="ms-auto">
-            <Nav.Link href="#home" className="active" onClick={toHome}>
+            <Nav.Link
+              href="#home"
+              onClick={toHome}
+              className={props.page === "home" ? "active" : null}
+            >
               Accueil
             </Nav.Link>
-            <Nav.Link href="#about" onClick={toAbout}>
+            <Nav.Link
+              href="#about"
+              onClick={toAbout}
+              className={props.page === "about" ? "active" : null}
+            >
               À propos
             </Nav.Link>
             <NavDropdown
