@@ -1,0 +1,34 @@
+@font-face {
+  font-family: dream-avenue;
+  src: url("../fonts/FontsFree-Net-Dream-Avenue.ttf");
+}
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,700;1,500&family=Noto+Serif+Display:wght@400;700&display=swap");
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --bg: #f8f3ef;
+  --green-1: #b5bda6;
+  --green-2: #93926e;
+  --green-3: #6d6f47;
+  --green-4: #4b5c49;
+  --brown-1: #d7bfa9;
+  --brown-2: #ab744e;
+  --pink-1: #e9cabb;
+  --title: dream-avenue, serif;
+  --text: cormorand-garamond, serif;
+  --navbar: "Noto Serif Display", serif;
+}
+
+body {
+  background-color: var(--bg);
+  font-family: var(--text);
+  max-width: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smooth: never;
+}
