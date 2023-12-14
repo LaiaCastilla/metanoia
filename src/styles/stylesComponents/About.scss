@@ -42,4 +42,53 @@
     z-index: 9;
     width: 652px;
   }
+  &__metanoia {
+    margin: 0 auto;
+    position: relative;
+    top: -300px;
+    z-index: 9;
+    color: #000;
+    width: 900px;
+    height: 415px;
+    text-align: center;
+    font-family: var(--text);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+  &__eucalipto {
+    width: 100%;
+    position: relative;
+    z-index: 0;
+    top: -250px;
+    &--content {
+      position: relative;
+      color: var(--bg);
+      top: -750px;
+    }
+    &--text {
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      margin: 0 auto;
+      max-width: 1073px;
+      margin-top: 64px;
+    }
+    &--list {
+      display: flex;
+      margin-top: 48px;
+      justify-content: space-between;
+    }
+  }
+  &__subtitle {
+    color: var(--bg);
+    font-family: var(--text);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 103px;
+  }
 }
