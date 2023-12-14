@@ -13,7 +13,6 @@ export default function Contact() {
   return (
     <div className="contact">
       <div className="citation">
-        {/* <figure className="image position-relative"> */}
         <img
           src={olive}
           alt="olive"
@@ -23,11 +22,6 @@ export default function Contact() {
         <div className="citation__text">
           “Vous êtes le plus beau projet sur lequel vous pouvez travailler.”
         </div>
-        {/* put this text over the image */}
-        {/* <figcaption className="citation__text">
-            “Vous êtes le plus beau projet sur lequel vous pouvez travailler.”
-          </figcaption> */}
-        {/* </figure> */}
       </div>
       <div className="contact__content container-fluid">
         <img

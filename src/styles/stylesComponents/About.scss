@@ -1,0 +1,45 @@
+.About {
+  // Avoid images that come out of the div to modify the size of the viewport
+  overflow: hidden;
+  // so the child divs can occupy all the heigh of the parent div
+  //   display: flex;
+  //   flex-direction: column;
+  //   position: relative;
+  //   max-height: fit-content;
+  &__paint {
+    position: absolute;
+    top: 340px;
+    left: 0;
+    z-index: 0;
+    flex-shrink: 0;
+    opacity: 0.5;
+  }
+  &__leaf1 {
+    position: relative;
+    z-index: 1;
+    top: 50px;
+    float: right;
+    width: 326px;
+  }
+
+  &__leaf2 {
+    position: relative;
+    width: 326px;
+    top: 350px;
+    z-index: 1;
+  }
+  &__title {
+    font-family: var(--title);
+    position: relative;
+    top: -500px;
+    margin-left: 53px;
+    color: #000;
+    text-align: left;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    z-index: 9;
+    width: 652px;
+  }
+}
