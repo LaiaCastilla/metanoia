@@ -6,7 +6,9 @@
   font-size: 20px;
   font-style: normal;
 }
-@media (max-width: 576px) {
+
+// responsive ipad & phone
+@media (max-width: 900px) {
   .NavigationBar {
     padding: 0px 20px;
   }
