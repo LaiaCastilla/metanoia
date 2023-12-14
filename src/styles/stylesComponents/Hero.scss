@@ -53,35 +53,22 @@ $color: var(--green-2);
     color: var(--bg);
   }
 }
-@media (max-width: 900px) {
-  .Hero {
-    max-height: 100%;
-    width: 100%;
-  }
+
+// Responsive ipad
+@media (max-width: 1200px) {
   .Hero__content {
-    margin: 0 auto;
-    text-align: center;
     &--logo {
-      width: 195px;
-      height: 195px;
+      width: 250px;
+      height: 250px;
     }
     &--title {
-      font-size: 60px;
-      max-width: 330px;
+      font-size: 80px;
+      max-width: 400px;
     }
-    &--btns {
-      display: flex;
-      justify-content: space-evenly;
-      padding-right: 0px;
-    }
-  }
-  .cta-btn {
-    width: 138px;
-    height: 56px;
-    font-size: 16px;
   }
 }
 
+// Responsive phone
 @media (max-width: 576px) {
   .Hero {
     max-height: 100%;
