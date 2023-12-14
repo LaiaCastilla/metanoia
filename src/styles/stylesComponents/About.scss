@@ -1,11 +1,9 @@
 .About {
   // Avoid images that come out of the div to modify the size of the viewport
   overflow: hidden;
-  // so the child divs can occupy all the heigh of the parent div
-  //   display: flex;
-  //   flex-direction: column;
-  //   position: relative;
-  //   max-height: fit-content;
+  //   To compensate for the relative position of the child divs in negative top
+  height: 2100px;
+
   &__paint {
     position: absolute;
     top: 340px;
@@ -19,7 +17,7 @@
     z-index: 1;
     top: 50px;
     float: right;
-    width: 326px;
+    width: 400px;
   }
 
   &__leaf2 {
@@ -83,12 +81,31 @@
     }
   }
   &__subtitle {
-    color: var(--bg);
     font-family: var(--text);
     font-size: 30px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     margin-left: 103px;
+  }
+  &__suite {
+    position: relative;
+    top: -450px;
+    &--text {
+      display: flex;
+      margin: 0 auto;
+      flex-shrink: 0;
+      gap: 200px;
+      p {
+        margin-left: 218px;
+        margin-top: 64px;
+        width: 772px;
+        height: 240px;
+      }
+      img {
+        position: relative;
+        top: -250px;
+      }
+    }
   }
 }

@@ -3,6 +3,7 @@ import paint from "../img/decor/AboutPaint.svg";
 import leaf1 from "../img/decor/AboutLeaf1.svg";
 import leaf2 from "../img/decor/AboutLeaf2.svg";
 import eucalipto from "../img/decor/eucalipto.svg";
+import leaf3 from "../img/decor/AboutLeaf3.svg";
 
 import "../styles/stylesComponents/About.scss";
 
@@ -51,6 +52,27 @@ function About() {
               <li>...</li>
             </ul>
           </div>
+        </div>
+      </div>
+      <div className="container-fluid About__suite">
+        <h3 className="About__subtitle">
+          Hypnothérapie ou reiki? Lequel choisir?
+        </h3>
+        <div className="About__suite--text">
+          <p>
+            Le reiki est une pratique énergétique et spirituelle qui se traduit
+            par des thérapies brèves visant à apporter une détente immédiate, un
+            rééquilibrage énergétique et une harmonisation d’ensemble. Il peut
+            également apporter un soulagement dans la réduction de la douleur et
+            redonner de l’énergie. <br />
+            <br /> L’hypnose est adaptative et se plie aux besoins de la
+            personne. Elle peut tout autant être utilisée en thérapie brève ou
+            sur une plus longue durée. Elle se calque sur l’évolution de
+            l’individus et répond autant au besoin de traiter des traumas, des
+            peurs, de se libérer de croyances ou d’addiction, que d’améliorer sa
+            confiance en soi, sa capacité de mémorisation, ou ses performances.
+          </p>
+          <img src={leaf3} alt="leaf" className="About__suite--leaf3" />
         </div>
       </div>
     </div>
