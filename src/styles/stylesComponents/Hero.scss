@@ -66,6 +66,11 @@ $color: var(--green-2);
       max-width: 400px;
     }
   }
+  .cta-btn {
+    width: 138px;
+    height: 56px;
+    font-size: 16px;
+  }
 }
 
 // Responsive phone
@@ -92,10 +97,5 @@ $color: var(--green-2);
       justify-content: space-evenly;
       padding-right: 0px;
     }
-  }
-  .cta-btn {
-    width: 138px;
-    height: 56px;
-    font-size: 16px;
   }
 }

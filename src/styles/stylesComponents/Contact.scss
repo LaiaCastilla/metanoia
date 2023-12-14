@@ -139,40 +139,31 @@
     }
   }
 }
+
+// Move paint stroke when the screen is bigger than 2150px
 @media (min-width: 2150px) {
   .contact__content--paint {
     top: -250px;
   }
 }
-
-@media (max-width: 576px) {
-  .citation__text {
-    font-size: 25px;
-    top: 40%;
-    max-width: 90%;
-  }
-  .citation {
-    height: 238px;
-  }
+// Responsive ipad
+@media (max-width: 1200px) {
   .contact__content {
     &--paint {
-      top: 450px;
-      width: 866px;
-      height: 515px;
-      left: -200px;
+      top: 50px;
     }
     &--leaf1 {
       z-index: 0;
       top: -190px;
       rotate: 90deg;
-      left: 210px;
+      left: 750px;
       opacity: 0.5;
-      max-width: 50%;
+      max-width: 40%;
     }
 
     &--leaf2 {
-      bottom: 250px;
-      right: 200px;
+      bottom: 400px;
+      right: 700px;
       // flip the image
       transform: scalex(-1);
       opacity: 0.5;
@@ -181,43 +172,112 @@
     }
 
     &--title {
-      top: -370px;
+      top: -600px;
       font-size: 45px;
     }
     &--text {
       // to make the text and the image responsives
       flex: column;
       flex-wrap: wrap;
-      top: -350px;
+      top: -550px;
       z-index: 9;
       margin: 0 30px;
     }
   }
-
-  .contact__footer--email a {
-    font-size: 25px;
-  }
-
-  .signature {
-    font-size: 12px;
-  }
 }
-@media (max-width: 370px) {
+
+// smaller ipads in vertical
+@media (max-width: 900px) {
   .citation__text {
-    font-size: 20px;
-    top: 40%;
-    max-width: 95%;
+    font-size: 40px;
+    top: 50%;
+    max-width: 90%;
   }
-  .contact__content--text {
-    margin: 0 10px;
+  .contact__content {
+    &--paint {
+      top: 150px;
+    }
+    &--leaf1 {
+      top: -130px;
+      left: 500px;
+    }
+    &--leaf2 {
+      bottom: 350px;
+      right: 500px;
+    }
+
+    &--title {
+      top: -450px;
+    }
+    &--text {
+      top: -400px;
+    }
   }
-  .contact__footer--email a {
-    font-size: 20px;
+
+  // Responsive phone
+  @media (max-width: 576px) {
+    .citation__text {
+      font-size: 25px;
+      top: 40%;
+      max-width: 90%;
+    }
+    .citation {
+      height: 238px;
+    }
+    .contact__content {
+      &--paint {
+        top: 450px;
+        width: 866px;
+        height: 515px;
+        left: -200px;
+      }
+      &--leaf1 {
+        top: -190px;
+
+        left: 210px;
+
+        max-width: 50%;
+      }
+
+      &--leaf2 {
+        bottom: 250px;
+        right: 200px;
+      }
+
+      &--title {
+        top: -370px;
+      }
+      &--text {
+        top: -350px;
+      }
+    }
+
+    .contact__footer--email a {
+      font-size: 25px;
+    }
+
+    .signature {
+      font-size: 12px;
+    }
   }
-  .contact__footer--logos img {
-    width: 50px;
-  }
-  .contact__footer--logos {
-    margin-top: 30px;
+  // Responsive smaller phone
+  @media (max-width: 370px) {
+    .citation__text {
+      font-size: 20px;
+      top: 40%;
+      max-width: 95%;
+    }
+    .contact__content--text {
+      margin: 0 10px;
+    }
+    .contact__footer--email a {
+      font-size: 20px;
+    }
+    .contact__footer--logos img {
+      width: 50px;
+    }
+    .contact__footer--logos {
+      margin-top: 30px;
+    }
   }
 }
