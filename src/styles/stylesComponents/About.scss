@@ -109,3 +109,40 @@
     }
   }
 }
+
+// Move paint stroke when the screen is bigger than 2150px
+@media (min-width: 2150px) {
+  .About {
+    height: 2500px;
+    &__paint {
+      max-width: 80%;
+      top: 300px;
+      left: 300px;
+    }
+    &__subtitle {
+      margin-left: 500px;
+    }
+    &__eucalipto--content {
+      top: -850px;
+    }
+    &__suite--text {
+      gap: 300px;
+      p {
+        margin-left: 600px;
+      }
+    }
+  }
+}
+
+// responsive phone
+@media (max-width: 576px) {
+  .About {
+    height: fit-content;
+    &__title {
+      font-size: 50px;
+      margin: 0 auto;
+      width: 326px;
+      text-align: center;
+    }
+  }
+}
