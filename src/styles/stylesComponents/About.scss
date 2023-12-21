@@ -137,9 +137,10 @@
 }
 
 // responsive phone
+
 @media (max-width: 576px) {
   .About {
-    height: 1800px;
+    height: 1600px;
     // Need to make position of container relative so overflow hidden works
     position: relative;
     overflow: hidden;
@@ -222,7 +223,7 @@
         img {
           position: relative;
           z-index: 0;
-          top: 0px;
+          top: -100px;
           width: 146.474px;
           height: 227.921px;
           opacity: 0.7;
@@ -238,13 +239,13 @@
     }
   }
 }
-// @media (min-width: 500px) {
-//   .About {
-//     height: 1600px;
-//     &__suite {
-//       img {
-//         top: -100px;
-//       }
-//     }
-//   }
-// }
+@media (max-width: 500px) {
+  .About {
+    height: 1800px;
+    &__suite {
+      img {
+        top: 0px;
+      }
+    }
+  }
+}
