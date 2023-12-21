@@ -6,11 +6,12 @@
 
   &__paint {
     position: absolute;
-    top: 340px;
+    // top: 340px;
+    top: -20px;
     left: 0;
     z-index: 0;
     flex-shrink: 0;
-    opacity: 0.5;
+    // opacity: 0.5;
   }
   &__leaf1 {
     position: relative;
@@ -116,7 +117,8 @@
     height: 2500px;
     &__paint {
       max-width: 80%;
-      top: 300px;
+      // top: 300px;
+      top: -250px;
       left: 300px;
     }
     &__subtitle {
@@ -142,28 +144,29 @@
     position: relative;
     overflow: hidden;
     &__paint {
-      width: 824.595px;
-      height: 506.492px;
+      width: 890px;
+      height: 600px;
       left: -200px;
-      top: 40px;
+      top: 0px;
     }
     &__title {
       font-size: 50px;
       margin: 0 auto;
       width: 326px;
       text-align: center;
-      top: -150px;
+      top: -170px;
     }
     &__leaf1 {
       top: 120px;
       float: right;
-      left: 30px;
-      width: 116px;
+      left: 40px;
+      width: 130px;
     }
 
     &__leaf2 {
       width: 113px;
-      top: 350px;
+      top: 250px;
+      right: 30px;
       z-index: 1;
     }
     &__metanoia {
@@ -199,6 +202,25 @@
           margin: 0 auto;
           list-style-type: none;
           padding: 0;
+        }
+      }
+    }
+    &__suite {
+      top: -500px;
+      &--text {
+        display: flex;
+        margin: 0 auto;
+        flex-shrink: 0;
+        gap: 200px;
+        p {
+          margin-left: 218px;
+          margin-top: 64px;
+          width: 772px;
+          height: 240px;
+        }
+        img {
+          position: relative;
+          top: -250px;
         }
       }
     }
