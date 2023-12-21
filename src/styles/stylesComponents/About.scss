@@ -110,7 +110,7 @@
   }
 }
 
-// Move paint stroke when the screen is bigger than 2150px
+// For bigger screens
 @media (min-width: 2150px) {
   .About {
     height: 2500px;
@@ -138,11 +138,64 @@
 @media (max-width: 576px) {
   .About {
     height: fit-content;
+    &__paint {
+      width: 824.595px;
+      height: 506.492px;
+      left: -200px;
+      top: 100px;
+    }
     &__title {
       font-size: 50px;
       margin: 0 auto;
       width: 326px;
       text-align: center;
+      top: -150px;
+    }
+    &__leaf1 {
+      top: 50px;
+      float: right;
+      width: 115px;
+    }
+
+    &__leaf2 {
+      width: 113px;
+      top: 350px;
+      z-index: 1;
+    }
+    &__metanoia {
+      top: -100px;
+      width: 292px;
+      height: 197px;
+      font-size: 25px;
+    }
+    &__eucalipto {
+      top: 0px;
+      content: url(../../img/decor/eucaliptophone.svg);
+
+      width: 395px;
+      height: 614px;
+
+      // img {
+      // }
+      &--content {
+        position: relative;
+        color: var(--bg);
+        top: -750px;
+      }
+      &--text {
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin: 0 auto;
+        max-width: 1073px;
+        margin-top: 64px;
+      }
+      &--list {
+        display: flex;
+        margin-top: 48px;
+        justify-content: space-between;
+      }
     }
   }
 }
