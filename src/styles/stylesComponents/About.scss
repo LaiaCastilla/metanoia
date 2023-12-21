@@ -114,7 +114,7 @@
 // For bigger screens
 @media (min-width: 2150px) {
   .About {
-    height: 2500px;
+    height: 2600px;
     &__paint {
       max-width: 80%;
       // top: 300px;
@@ -139,7 +139,7 @@
 // responsive phone
 @media (max-width: 576px) {
   .About {
-    height: fit-content;
+    height: 1800px;
     // Need to make position of container relative so overflow hidden works
     position: relative;
     overflow: hidden;
@@ -208,25 +208,43 @@
     &__suite {
       top: -500px;
       &--text {
-        display: flex;
+        display: block;
         margin: 0 auto;
-        flex-shrink: 0;
-        gap: 200px;
+        max-width: 100%;
         p {
-          margin-left: 218px;
-          margin-top: 64px;
-          width: 772px;
-          height: 240px;
+          position: relative;
+          z-index: 9;
+          margin: 0 auto;
+          margin-top: 40px;
+          max-width: 90%;
+          text-align: justify;
         }
         img {
           position: relative;
-          top: -250px;
+          z-index: 0;
+          top: 0px;
+          width: 146.474px;
+          height: 227.921px;
+          opacity: 0.7;
+          float: right;
+          left: 30px;
         }
       }
     }
     &__subtitle {
+      margin-top: 10px;
       margin-left: 0px;
       text-align: center;
     }
   }
 }
+// @media (min-width: 500px) {
+//   .About {
+//     height: 1600px;
+//     &__suite {
+//       img {
+//         top: -100px;
+//       }
+//     }
+//   }
+// }
