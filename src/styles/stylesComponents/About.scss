@@ -249,3 +249,26 @@
     }
   }
 }
+// responsive smaller phone
+@media (max-width: 370px) {
+  .About {
+    height: 1700px;
+    &__title {
+      max-width: 100%;
+      font-size: 40px;
+    }
+    &__metanoia {
+      font-size: 20px;
+      top: -60px;
+    }
+    &__subtitle {
+      font-size: 25px;
+    }
+    &__eucalipto {
+      top: -25px;
+      &--text {
+        font-size: 16px;
+      }
+    }
+  }
+}
