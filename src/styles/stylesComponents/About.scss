@@ -118,7 +118,8 @@
     &__paint {
       max-width: 80%;
       // top: 300px;
-      top: -250px;
+      // top: -250px;
+      top: -100px;
       left: 300px;
     }
     &__subtitle {
@@ -132,6 +133,87 @@
       p {
         margin-left: 600px;
       }
+    }
+  }
+}
+
+// bigger tablet horizontal
+@media (max-width: 1400px) {
+  .About {
+    height: 1900px;
+    &__paint {
+      top: 30px;
+    }
+
+    &__leaf1 {
+      width: 250px;
+    }
+
+    &__leaf2 {
+      width: 200px;
+      top: 230px;
+    }
+    &__title {
+      top: -300px;
+    }
+    &__metanoia {
+      top: -200px;
+    }
+    &__eucalipto--content {
+      top: -650px;
+    }
+  }
+}
+
+// responsive ipad
+@media (max-width: 1200px) {
+  .About {
+    &__paint {
+      top: 30px;
+    }
+    &__title {
+      font-size: 70px;
+
+      width: 400px;
+    }
+    &__metanoia {
+      font-size: 30px;
+      width: 700px;
+    }
+
+    &__eucalipto {
+      // width: 100%;
+      // position: relative;
+      // z-index: 0;
+      // top: -250px;
+      &--content {
+        // position: relative;
+        // color: var(--bg);
+        top: -580px;
+      }
+      &--text {
+        font-size: 16px;
+        // font-style: normal;
+        // font-weight: 500;
+        // line-height: normal;
+        // margin: 0 auto;
+        max-width: 700px;
+
+        margin-top: 50px;
+      }
+      &--list {
+        display: flex;
+        margin-top: 48px;
+        justify-content: space-between;
+      }
+    }
+    &__subtitle {
+      font-family: var(--text);
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      margin-left: 103px;
     }
   }
 }
@@ -207,7 +289,7 @@
       }
     }
     &__suite {
-      top: -500px;
+      top: -400px;
       &--text {
         display: block;
         margin: 0 auto;
@@ -269,6 +351,9 @@
       &--text {
         font-size: 16px;
       }
+    }
+    &__suite {
+      top: -500px;
     }
   }
 }
