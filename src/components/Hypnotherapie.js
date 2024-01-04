@@ -36,7 +36,7 @@ function Hypnotherapie() {
         </div>
       </div>
       <div className="Hypno__aeros">
-        <img src={aeros} alt="aeros" />
+        <img src={aeros} alt="aeros" className="Hypno__aeros--img" />
         <div className="Hypno__aeros--content container-fluid">
           <div className="Hypno__aeros--text ">
             <h3 className="Hypno__subtitle">Déroulement d'une seance</h3>

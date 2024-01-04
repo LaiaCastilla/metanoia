@@ -127,8 +127,6 @@
         height: 420px;
       }
       &--content {
-        color: var(--bg);
-        display: flex;
         gap: 30px;
         padding-left: 100px;
         padding-right: 50px;
@@ -140,6 +138,51 @@
       &--text {
         margin-top: 50px;
       }
+    }
+  }
+}
+
+// smaller tablet when vertical
+
+@media (max-width: 930px) {
+  .Hypno {
+    &__circle {
+      opacity: 0.5;
+    }
+    &__leaf1 {
+      opacity: 0.2;
+    }
+    &__title {
+      margin: 0 auto;
+      font-size: 50px;
+      margin-top: 30px;
+      text-align: center;
+    }
+    &__intro {
+      margin-right: 50px;
+      padding-left: 50px;
+      text-align: center;
+    }
+    &__aeros {
+      margin-top: 150px;
+      img {
+        height: auto;
+      }
+      &--img {
+        content: url(../../img/decor/aerosvertab.svg);
+      }
+      &--content {
+        padding-left: 50px;
+        padding-right: 50px;
+        img {
+          top: -50px;
+          width: 200px;
+        }
+      }
+    }
+    &__text {
+      margin-top: 20px;
+      font-size: 16px;
     }
   }
 }
