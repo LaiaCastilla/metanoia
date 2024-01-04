@@ -1,6 +1,8 @@
 import React from "react";
 import circle from "../img/decor/HypnoElipse.svg";
 import leaf1 from "../img/decor/HypnoLeaf1.svg";
+import hypno from "../img/decor/HypnoPic.svg";
+import aeros from "../img/decor/aeros.svg";
 
 import "../styles/stylesComponents/Hypnotherapie.scss";
 
@@ -30,6 +32,29 @@ function Hypnotherapie() {
             émotions, pour la confiance en soi ou de l'estime de soi, ou encore
             pour surmonter ses peurs et croyances limitantes.
           </p>
+        </div>
+      </div>
+      <div className="Hypno__aeros">
+        <img src={aeros} alt="aeros" />
+        <div className="Hypno__aeros--content container-fluid">
+          <div className="Hypno__aeros--text">
+            <h3 className="Hypno__subtitle">Déroulement d'une seance</h3>
+            <p className="Hypno__text">
+              Lors d’une première séance d’anamnèse nous verrons ensemble votre
+              problématique et nous établirons un plan de traitement
+              thérapeutique adapté à vos souhaits et vos besoins. Ce plan de
+              traitement pourra à tout moment évoluer en fonction de vous. Les
+              séances d’hypnoses commencent par une mise en relaxation qui va
+              induire l’état d’hypnose et qui s’enchainera sur la séance en
+              elle-même, avant de revenir en douceur vers le conscient et
+              l’instant présent pour un petit échange qui clôture la séance.
+            </p>
+            <div className="Hypno__aeros--price">
+              <h3 className="Hypno__subtitle">Tarifs</h3>
+              <p className="Hypno__price">40 chf / heure</p>
+            </div>
+          </div>
+          <img src={hypno} alt="hypno" />
         </div>
       </div>
     </div>

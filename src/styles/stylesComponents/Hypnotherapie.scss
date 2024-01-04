@@ -1,4 +1,6 @@
 .Hypno {
+  position: relative;
+  overflow-x: hidden;
   &__circle {
     margin-left: 130px;
     top: 240px;
@@ -39,5 +41,26 @@
   &__subtitle {
     font-size: 30px;
     font-weight: 700;
+  }
+  &__aeros {
+    margin-top: 240px;
+    width: 100%;
+    position: relative;
+    z-index: -10;
+    img {
+      width: 100%;
+      position: absolute;
+      z-index: -1;
+    }
+    &--content {
+      color: var(--bg);
+      display: flex;
+      padding-left: 150px;
+      padding-right: 96px;
+      img {
+        position: relative;
+        top: -200px;
+      }
+    }
   }
 }
