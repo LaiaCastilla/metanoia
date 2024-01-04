@@ -121,5 +121,25 @@
       margin-right: 50px;
       padding-left: 250px;
     }
+    &__aeros {
+      margin-top: 150px;
+      img {
+        height: 420px;
+      }
+      &--content {
+        color: var(--bg);
+        display: flex;
+        gap: 30px;
+        padding-left: 100px;
+        padding-right: 50px;
+        img {
+          top: -50px;
+          width: 300px;
+        }
+      }
+      &--text {
+        margin-top: 50px;
+      }
+    }
   }
 }
