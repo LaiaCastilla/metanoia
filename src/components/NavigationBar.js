@@ -26,7 +26,7 @@ function NavigationBar(props) {
     <div className="NavigationBar">
       <Navbar expand="lg">
         {/* <Container> */}
-        <Navbar.Brand href="#home">
+        <Navbar.Brand href="#home" onClick={toHome}>
           <img
             src={logo}
             alt="Metanoia logo"
