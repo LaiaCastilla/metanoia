@@ -1,0 +1,14 @@
+.Hypno {
+  &__circle {
+    margin-left: 130px;
+    top: 180px;
+    position: absolute;
+    z-index: 0;
+  }
+  &__leaf1 {
+    position: absolute;
+    top: 70px;
+    left: 20px;
+    z-index: 1;
+  }
+}
