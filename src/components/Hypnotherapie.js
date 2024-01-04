@@ -48,11 +48,11 @@ function Hypnotherapie() {
               induire l’état d’hypnose et qui s’enchainera sur la séance en
               elle-même, avant de revenir en douceur vers le conscient et
               l’instant présent pour un petit échange qui clôture la séance.
+              <div className="Hypno__aeros--price">
+                <h3 className="Hypno__subtitle">Tarifs</h3>
+                <p className="Hypno__price">40 chf / heure</p>
+              </div>
             </p>
-            <div className="Hypno__aeros--price">
-              <h3 className="Hypno__subtitle">Tarifs</h3>
-              <p className="Hypno__price">40 chf / heure</p>
-            </div>
           </div>
           <img src={hypno} alt="hypno" />
         </div>
