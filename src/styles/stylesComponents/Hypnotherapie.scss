@@ -1,14 +1,26 @@
 .Hypno {
   &__circle {
     margin-left: 130px;
-    top: 180px;
+    top: 240px;
     position: absolute;
     z-index: 0;
   }
   &__leaf1 {
     position: absolute;
-    top: 70px;
+    top: 130px;
     left: 20px;
     z-index: 1;
+  }
+  &__title {
+    font-family: var(--title);
+    color: #000;
+    text-align: right;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    z-index: 9;
+    margin-right: 96px;
+    margin-top: 70px;
   }
 }

@@ -10,8 +10,8 @@ function Hypnotherapie() {
       <div className="container-fluid">
         <img src={circle} alt="circle" className="Hypno__circle" />
         <img src={leaf1} alt="leaf" className="Hypno__leaf1" />
+        <h2 className="Hypno__title">L'hypnothérapie</h2>
       </div>
-      Hypnotherapie
     </div>
   );
 }
