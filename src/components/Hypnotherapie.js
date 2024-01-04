@@ -5,13 +5,14 @@ import hypno from "../img/decor/HypnoPic.svg";
 import aeros from "../img/decor/aeros.svg";
 
 import "../styles/stylesComponents/Hypnotherapie.scss";
+import Image from "react-bootstrap/Image";
 
 function Hypnotherapie() {
   return (
     <div className="Hypno">
       <div className="container-fluid">
-        <img src={circle} alt="circle" className="Hypno__circle" />
-        <img src={leaf1} alt="leaf" className="Hypno__leaf1" />
+        <Image src={circle} alt="circle" className="Hypno__circle" fluid />
+        <Image src={leaf1} alt="leaf" className="Hypno__leaf1" fluid />
         <h2 className="Hypno__title">L'hypnothérapie</h2>
         <div className="Hypno__intro">
           <p className="Hypno__text">

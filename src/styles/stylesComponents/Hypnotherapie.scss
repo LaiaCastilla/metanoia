@@ -102,3 +102,24 @@
     }
   }
 }
+
+// For bigger tablet horizontal screens nothing is needed
+
+// For tablet horizontal screens
+@media (max-width: 1200px) {
+  .Hypno {
+    &__circle {
+      max-width: 30%;
+    }
+    &__leaf1 {
+      max-width: 40%;
+    }
+    &__title {
+      margin-right: 50px;
+    }
+    &__intro {
+      margin-right: 50px;
+      padding-left: 250px;
+    }
+  }
+}
