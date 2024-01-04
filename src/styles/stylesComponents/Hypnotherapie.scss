@@ -78,3 +78,27 @@
     font-weight: 500px;
   }
 }
+
+// For bigger screens
+@media (min-width: 2150px) {
+  .Hypno {
+    &__circle {
+      top: 200px;
+    }
+    &__leaf1 {
+      top: 90px;
+    }
+    &__aeros {
+      &--content {
+        padding: 0px 100px 0 300px;
+        gap: 300px;
+      }
+      &--text {
+        margin-top: 300px;
+      }
+    }
+    &__intro {
+      padding-left: 700px;
+    }
+  }
+}

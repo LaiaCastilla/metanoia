@@ -142,6 +142,9 @@
 
 // Move paint stroke when the screen is bigger than 2150px
 @media (min-width: 2150px) {
+  .contact {
+    height: 2300px;
+  }
   .contact__content--paint {
     top: -250px;
   }

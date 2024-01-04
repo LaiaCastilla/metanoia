@@ -116,12 +116,11 @@
 // For bigger screens
 @media (min-width: 2150px) {
   .About {
-    height: 2600px;
+    height: 2500px;
     &__paint {
       max-width: 80%;
-      // top: 300px;
-      // top: -250px;
-      top: -100px;
+
+      top: -200px;
       left: 300px;
     }
     &__subtitle {

@@ -37,7 +37,7 @@ function Hypnotherapie() {
       <div className="Hypno__aeros">
         <img src={aeros} alt="aeros" />
         <div className="Hypno__aeros--content container-fluid">
-          <div className="Hypno__aeros--text">
+          <div className="Hypno__aeros--text ">
             <h3 className="Hypno__subtitle">Déroulement d'une seance</h3>
             <p className="Hypno__text">
               Lors d’une première séance d’anamnèse nous verrons ensemble votre
