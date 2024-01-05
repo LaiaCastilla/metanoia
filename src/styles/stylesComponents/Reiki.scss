@@ -148,3 +148,53 @@
     }
   }
 }
+
+// For bigger tablet horizontal screens nothing is needed
+
+// For tablet horizontal screens
+@media (max-width: 1200px) {
+  .Reiki {
+    &__leaf1 {
+      right: 100px;
+    }
+
+    &__leaf2 {
+      top: 500px;
+
+      z-index: 1;
+    }
+    &__title {
+      margin-left: 50px;
+    }
+    &__intro {
+      margin-left: 50px;
+      flex-direction: column;
+      z-index: 10;
+      &--text {
+        max-width: 90%;
+      }
+    }
+    &__intro2 {
+      margin-left: 50px;
+      max-width: 90%;
+    }
+    &__poppy {
+      margin-top: 150px;
+      img {
+        height: 420px;
+      }
+      &--content {
+        gap: 30px;
+        padding-right: 100px;
+        padding-left: 50px;
+        img {
+          top: -50px;
+          width: 300px;
+        }
+      }
+      &--text {
+        margin-top: 50px;
+      }
+    }
+  }
+}
