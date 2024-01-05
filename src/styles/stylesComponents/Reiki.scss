@@ -2,12 +2,20 @@
   position: relative;
   overflow: hidden;
   &__circle {
-    margin-left: 130px;
-    top: 240px;
-    position: absolute;
-    z-index: -1;
+    float: right;
+    width: 393px;
+    // margin-left: 130px;
+    // top: 240px;
+    // position: absolute;
+    // z-index: -1;
   }
   &__leaf1 {
+    position: absolute;
+    top: 130px;
+    left: 20px;
+    z-index: 0;
+  }
+  &__leaf2 {
     position: absolute;
     top: 130px;
     left: 20px;
@@ -16,13 +24,49 @@
   &__title {
     font-family: var(--title);
     color: #000;
-    text-align: right;
+    text-align: left;
     font-size: 90px;
     font-style: normal;
     font-weight: 300;
     line-height: normal;
     z-index: 9;
-    margin-right: 96px;
+    margin-left: 140px;
     margin-top: 70px;
+  }
+  &__intro {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 140px;
+    margin-top: 65px;
+
+    &--text {
+      text-align: left;
+      max-width: 60%;
+    }
+  }
+  &__usui {
+    margin-right: 100px;
+    position: relative;
+    &--content {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      top: 47%;
+      left: 40%;
+      margin: -72px -1000px -1000px -72px;
+      font-size: 30px;
+      font-style: italic;
+      font-weight: 500;
+      line-height: normal;
+    }
+    // &--title {
+    //    align-self: center;
+    // }
+    &--carousel {
+      align-self: center;
+      max-width: 270px;
+      text-align: center;
+      margin-left: -10px;
+    }
   }
 }
