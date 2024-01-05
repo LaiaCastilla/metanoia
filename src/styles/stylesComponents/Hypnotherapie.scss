@@ -217,14 +217,21 @@
         height: auto;
       }
       &--img {
-        content: url(../../img/decor/aerosvertab.svg);
+        content: url(../../img/decor/aerosmob.svg);
+      }
+      &--text {
+        margin-top: 0px;
       }
       &--content {
-        padding-left: 50px;
-        padding-right: 50px;
+        flex-direction: column-reverse;
+        padding-left: 18px;
+        padding-right: 18px;
+        gap: 10px;
         img {
           top: -50px;
-          width: 200px;
+          width: 296px;
+          content: url(../../img/decor/HypnoPicMob.svg);
+          margin: 0 auto;
         }
       }
     }
