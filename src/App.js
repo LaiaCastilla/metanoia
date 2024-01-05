@@ -14,7 +14,7 @@ function App() {
     <div className="App">
       <NavigationBar page={page} setPage={setPage} />
       {page === "home" ? (
-        <Home />
+        <Home page={page} setPage={setPage} />
       ) : page === "about" ? (
         <About />
       ) : page === "hypno" ? (

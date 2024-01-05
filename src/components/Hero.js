@@ -2,7 +2,16 @@ import React from "react";
 import "../styles/stylesComponents/Hero.scss";
 import logo from "../logo.svg";
 
-function Hero() {
+function Hero(props) {
+  function toHypno(event) {
+    event.preventDefault();
+    props.setPage("hypno");
+  }
+
+  function toReiki(event) {
+    event.preventDefault();
+    props.setPage("reiki");
+  }
   return (
     <div className="Hero">
       <div className="Hero__content container-fluid">
@@ -15,10 +24,10 @@ function Hero() {
           <h1 className="Hero__content--title">METANOIA THERAPY</h1>
           <span className="Hero__content--btns">
             {/* two buttons */}
-            <button variant="success" className="cta-btn btn">
+            <button variant="success" className="cta-btn btn" onClick={toHypno}>
               Hypnothérapie
             </button>
-            <button variant="success" className="cta-btn btn">
+            <button variant="success" className="cta-btn btn" onClick={toReiki}>
               Reiki
             </button>
           </span>

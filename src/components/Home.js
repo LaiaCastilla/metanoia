@@ -2,10 +2,10 @@ import React from "react";
 import Hero from "./Hero";
 import Contact from "./Contact";
 
-function Home() {
+function Home(props) {
   return (
     <div className="Home">
-      <Hero />
+      <Hero page={props.page} setPage={props.setPage} />
       <Contact />
     </div>
   );
