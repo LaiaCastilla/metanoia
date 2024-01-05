@@ -198,3 +198,46 @@
     }
   }
 }
+
+// smaller tablet when vertical
+
+@media (max-width: 930px) {
+  .Reiki {
+    &__leaf2 {
+      top: 600px;
+      opacity: 0.7;
+    }
+    &__title {
+      margin: 0 auto;
+      font-size: 50px;
+      margin-top: 30px;
+      text-align: center;
+    }
+    &__intro {
+      margin-top: 0px;
+      &--text {
+        text-align: center;
+      }
+    }
+    &__intro2 {
+      text-align: center;
+    }
+    &__poppy {
+      margin-top: 150px;
+      img {
+        height: auto;
+      }
+      &--img {
+        content: url(../../img/decor/poppyvertab.svg);
+      }
+      &--content {
+        padding-left: 50px;
+        padding-right: 50px;
+        img {
+          top: -50px;
+          width: 200px;
+        }
+      }
+    }
+  }
+}
