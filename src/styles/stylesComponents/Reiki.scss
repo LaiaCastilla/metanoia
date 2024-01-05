@@ -108,6 +108,7 @@
       img {
         position: relative;
         top: -150px;
+        max-width: 650px;
       }
     }
     &--text {
@@ -123,5 +124,27 @@
   &__price {
     font-size: 30px;
     font-weight: 500px;
+  }
+}
+// For bigger screens
+@media (min-width: 2150px) {
+  .Reiki {
+    &__intro {
+      &--text {
+        max-width: 70%;
+      }
+    }
+    &__poppy {
+      &--content {
+        padding: 0px 300px 0 100px;
+        gap: 300px;
+        img {
+          top: -200px;
+        }
+      }
+      &--text {
+        margin-top: 300px;
+      }
+    }
   }
 }
