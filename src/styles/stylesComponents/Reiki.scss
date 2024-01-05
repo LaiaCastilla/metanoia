@@ -11,15 +11,16 @@
   }
   &__leaf1 {
     position: absolute;
-    top: 130px;
+    top: 150px;
     left: 20px;
     z-index: 0;
   }
   &__leaf2 {
     position: absolute;
-    top: 130px;
-    left: 20px;
-    z-index: 0;
+    top: 180px;
+    text-align: right;
+    right: 0%;
+    z-index: 2;
   }
   &__title {
     font-family: var(--title);
@@ -37,21 +38,39 @@
     display: flex;
     justify-content: space-between;
     margin-left: 140px;
-    margin-top: 65px;
+    margin-top: 40px;
 
     &--text {
       text-align: left;
-      max-width: 60%;
+      max-width: 57%;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
     }
   }
+  &__text {
+    margin: 58px 0px 58px 0px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  &__intro2 {
+    margin-left: 140px;
+  }
   &__usui {
+    flex: none;
     margin-right: 100px;
     position: relative;
+    max-height: 393px;
     &--content {
       position: absolute;
+      z-index: 10;
       display: flex;
       flex-direction: column;
-      top: 47%;
+      //   center elements in the carousel
+      top: 57%;
       left: 40%;
       margin: -72px -1000px -1000px -72px;
       font-size: 30px;
@@ -59,9 +78,6 @@
       font-weight: 500;
       line-height: normal;
     }
-    // &--title {
-    //    align-self: center;
-    // }
     &--carousel {
       align-self: center;
       max-width: 270px;
