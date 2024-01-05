@@ -241,3 +241,26 @@
     }
   }
 }
+
+// responsive smaller phone
+@media (max-width: 370px) {
+  .Hypno {
+    &__title {
+      font-size: 40px;
+    }
+
+    &__subtitle {
+      font-size: 25px;
+    }
+    &__aeros {
+      margin-top: 50px;
+      &--content {
+        padding: 20px 30px 0 30px;
+        flex-direction: column;
+        img {
+          width: 250px;
+        }
+      }
+    }
+  }
+}
