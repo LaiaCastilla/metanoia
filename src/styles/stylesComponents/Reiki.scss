@@ -34,6 +34,10 @@
     margin-left: 140px;
     margin-top: 70px;
   }
+  &__subtitle {
+    font-size: 30px;
+    font-weight: 700;
+  }
   &__intro {
     display: flex;
     justify-content: space-between;
@@ -84,5 +88,40 @@
       text-align: center;
       margin-left: -10px;
     }
+  }
+  &__poppy {
+    width: 100%;
+    margin-top: 240px;
+    position: relative;
+    z-index: -10;
+    img {
+      width: 100%;
+      position: absolute;
+      z-index: -1;
+    }
+    &--content {
+      color: var(--bg);
+      display: flex;
+      gap: 86px;
+      padding-left: 150px;
+      padding-right: 140px;
+      img {
+        position: relative;
+        top: -150px;
+      }
+    }
+    &--text {
+      margin-top: 94px;
+      text-align: justify;
+    }
+    &--price {
+      margin-top: 16px;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  &__price {
+    font-size: 30px;
+    font-weight: 500px;
   }
 }

@@ -5,6 +5,8 @@ import CarouselItem from "react-bootstrap/CarouselItem";
 import circle from "../img/decor/HypnoElipse.svg";
 import leaf1 from "../img/decor/ReikiLeaf1.svg";
 import leaf2 from "../img/decor/ReikiLeaf2.svg";
+import reiki from "../img/decor/ReikiPic.svg";
+import poppy from "../img/decor/poppy.svg";
 
 import "../styles/stylesComponents/Reiki.scss";
 import Image from "react-bootstrap/Image";
@@ -80,6 +82,27 @@ function Reiki() {
             <br /> Au niveau spirituel il apporte : un développement de la
             conscience spirituelle et favorise la connexion à notre être.
           </p>
+        </div>
+      </div>
+      <div className="Reiki__poppy">
+        <img src={poppy} alt="poppy" className="Reiki__poppy--img" />
+        <div className="Reiki__poppy--content container-fluid">
+          <img src={reiki} alt="reiki" />
+          <div className="Reiki__poppy--text ">
+            <h3 className="Reiki__subtitle">Déroulement d'une seance</h3>
+            <p className="Reiki__text">
+              La séance commence par un bilan de votre état général et de votre
+              problématique. Par la suite, vous êtes allongé avec vos vêtements
+              sur une table de massage et en posant mes mains sur des points
+              énergétiques précis, je deviens un canal pour faire passer
+              l’énergie universelle à travers vos canaux énergétiques, afin de
+              libérer les blocages et rétablir le flux naturel.
+              <div className="Reiki__poppy--price">
+                <h3 className="Reiki__subtitle">Tarifs</h3>
+                <p className="Reiki__price">120 chf / heure</p>
+              </div>
+            </p>
+          </div>
         </div>
       </div>
     </div>
