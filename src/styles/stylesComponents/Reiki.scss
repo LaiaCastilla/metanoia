@@ -241,3 +241,75 @@
     }
   }
 }
+
+// responsive phone
+
+@media (max-width: 576px) {
+  .Reiki {
+    &__leaf1 {
+      display: none;
+    }
+    &__leaf2 {
+      width: 40%;
+    }
+    &__title {
+      margin: 0 auto;
+      font-size: 50px;
+      margin-top: 30px;
+      text-align: center;
+    }
+    &__intro {
+      margin: 0 auto;
+      padding: 0px 18px 0px 18px;
+
+      &--text {
+        max-width: 100%;
+        text-align: justify;
+        font-size: 16px;
+      }
+    }
+    &__intro2 {
+      margin: 0 auto;
+      padding: 0px;
+      text-align: justify;
+      font-size: 16px;
+    }
+    &__usui {
+      margin-right: 0px;
+      &--content {
+        //   center elements in the carousel
+        left: 35%;
+      }
+    }
+    &__poppy {
+      margin-top: 150px;
+      img {
+        height: auto;
+      }
+      &--img {
+        content: url(../../img/decor/poppymob.svg);
+      }
+      &--text {
+        margin-top: 0px;
+        position: relative;
+        top: -40px;
+      }
+      &--content {
+        flex-direction: column;
+        padding-left: 18px;
+        padding-right: 18px;
+        gap: 10px;
+        img {
+          top: -50px;
+          width: 296px;
+          content: url(../../img/decor/ReikiPicMob.svg);
+          margin: 0 auto;
+        }
+      }
+    }
+    &__text {
+      margin-top: 20px;
+      font-size: 16px;
+    }
+  }
+}
