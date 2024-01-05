@@ -22,6 +22,11 @@ function NavigationBar(props) {
     props.setPage("hypno");
   }
 
+  function toReiki(event) {
+    event.preventDefault();
+    props.setPage("reiki");
+  }
+
   return (
     <div className="NavigationBar">
       <Navbar expand="lg">
@@ -67,7 +72,13 @@ function NavigationBar(props) {
               >
                 Hypnothérapie
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">Reiki</NavDropdown.Item>
+              <NavDropdown.Item
+                href="#action/3.2"
+                onClick={toReiki}
+                className={props.page === "reiki" ? "active" : null}
+              >
+                Reiki
+              </NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>

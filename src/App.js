@@ -5,6 +5,7 @@ import "./styles/App.css";
 import Home from "./components/Home";
 import About from "./components/About";
 import Hypnotherapie from "./components/Hypnotherapie";
+import Reiki from "./components/Reiki";
 
 function App() {
   let [page, setPage] = useState("home");
@@ -18,6 +19,8 @@ function App() {
         <About />
       ) : page === "hypno" ? (
         <Hypnotherapie />
+      ) : page === "reiki" ? (
+        <Reiki />
       ) : null}
 
       <div className="container-fluid"></div>
