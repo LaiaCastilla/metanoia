@@ -69,3 +69,29 @@
     }
   }
 }
+
+// Responsiveness
+
+// For bigger screens is good
+// For bigger tablet horizontal is also good
+// For smaller tablet horizontal
+@media (max-width: 1200px) {
+  .Footer {
+    &__content {
+      gap: 10px;
+      &--logo img {
+        width: 230px;
+        height: 230px;
+      }
+    }
+
+    &__title {
+      font-size: 70px;
+    }
+    ul {
+      padding-left: 130px;
+    }
+  }
+}
+
+// 
