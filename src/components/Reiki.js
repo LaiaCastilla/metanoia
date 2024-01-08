@@ -24,6 +24,7 @@ function Reiki() {
               Le Reiki est un soin énergétique japonais qui peut se pratiquer
               par apposition des mains sur le corps ou à distance. Il se
               pratique aussi bien sur les humains que sur les animaux. <br />
+              <br />
               Cette technique de soin a été créée par Mikao Usui, un moine
               bouddhiste japonais né en 1865. De ce que l’on connait de lui,
               c'est au début des années 1920 qu'il fonda son centre de guérison
@@ -37,7 +38,7 @@ function Reiki() {
               <br />
               C'est lors d'une retraite méditative que Mikao Usui eut une
               révélation sur sa capacité à prodiguer des soins et sur le pouvoir
-              guérisseur de l'énergie universelle. <br />
+              guérisseur de l'énergie universelle. <br /> <br />
               Mais l'énergie qu'est-ce que c'est ? <br />
               <br />
               Tout ce qui existe est énergie, la terre, l'eau, les êtres

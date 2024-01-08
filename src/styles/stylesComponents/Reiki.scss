@@ -92,6 +92,7 @@
   &__poppy {
     width: 100%;
     margin-top: 240px;
+
     position: relative;
     z-index: -10;
     img {
@@ -180,6 +181,7 @@
     }
     &__poppy {
       margin-top: 150px;
+      margin-bottom: 100px;
       img {
         height: 420px;
       }
