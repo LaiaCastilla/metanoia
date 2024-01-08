@@ -79,7 +79,7 @@ export default function Contact() {
           <div className="contact__footer--logos">
             {" "}
             <a
-              href="https://www.facebook.com/"
+              href="https://www.facebook.com/profile.php?id=61552759357936/"
               title="Mon compte Facebook"
               target="_blank"
               rel="noreferrer"
@@ -87,7 +87,7 @@ export default function Contact() {
               <img src={facebook} alt="facebook" width={65} height={65} />
             </a>
             <a
-              href="https://www.instagram.com/"
+              href="https://www.instagram.com/metanoia_therapy_/"
               title="Mon compte Instagram"
               target="_blank"
               rel="noreferrer"
