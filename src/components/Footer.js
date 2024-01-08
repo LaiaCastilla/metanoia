@@ -13,11 +13,20 @@ function Footer() {
           <img src={logo} alt="metanoia therapy" />
         </div>
         <div className="Footer__content--text">
-          <h2>METANOIA THERAPY</h2>
-          <ul>
-            <li>076 510 85 07</li>
-            <li>metanoia-therapy@outlook.com</li>
-            <li>Genève centre ville</li>
+          <h2 className="Footer__title">METANOIA THERAPY</h2>
+          <ul className="Footer__list">
+            <li>
+              <img src={logo} alt="logo BP" className="Footer__list--bp" />
+              076 510 85 07
+            </li>
+            <li>
+              <img src={logo} alt="logo BP" className="Footer__list--bp" />
+              metanoia-therapy@outlook.com
+            </li>
+            <li>
+              <img src={logo} alt="logo BP" className="Footer__list--bp" />
+              Genève centre ville
+            </li>
           </ul>
         </div>
       </div>

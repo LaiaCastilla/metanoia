@@ -1,4 +1,40 @@
 .Footer {
+  margin-bottom: 100px;
+  &__content {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    &--logo img {
+      width: 256px;
+      height: 256px;
+      flex-shrink: 0;
+    }
+  }
+  &__title {
+    font-family: var(--title);
+    color: #000;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  &__list {
+    color: var(--green-4);
+    font-family: var(--text);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    img {
+      margin-right: 29px;
+      width: 29px;
+    }
+  }
+  ul {
+    margin: 0 auto;
+    list-style-type: none;
+    padding-left: 155px;
+  }
   &__logos {
     margin-top: 61px;
     display: flex;
