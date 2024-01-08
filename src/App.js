@@ -6,6 +6,7 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Hypnotherapie from "./components/Hypnotherapie";
 import Reiki from "./components/Reiki";
+import Footer from "./components/Footer";
 
 function App() {
   let [page, setPage] = useState("home");
@@ -16,7 +17,10 @@ function App() {
       {page === "home" ? (
         <Home page={page} setPage={setPage} />
       ) : page === "about" ? (
-        <About />
+        <div>
+          <About />
+          <Footer />
+        </div>
       ) : page === "hypno" ? (
         <Hypnotherapie />
       ) : page === "reiki" ? (

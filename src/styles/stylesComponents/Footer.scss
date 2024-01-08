@@ -1,0 +1,40 @@
+.Footer {
+  position: relative;
+  top: -220px;
+  margin: 0 auto;
+  text-align: center;
+
+  &__logos {
+    margin-top: 61px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 52px;
+    fill: var(--green-4);
+    transition: all 200ms ease-in-out;
+    a {
+      transition: all 150ms ease-in-out;
+      :hover {
+        cursor: pointer;
+        transform: scale(1.2);
+      }
+    }
+  }
+  &__signature {
+    font-family: monospace;
+    font-weight: normal;
+    text-align: right;
+    position: relative;
+    top: 50px;
+    padding-right: 10px;
+    a {
+      color: var(--green-2);
+      text-decoration: none;
+      transition: all 150ms ease-in-out;
+      &:hover {
+        color: var(--green-4);
+        cursor: pointer;
+      }
+    }
+  }
+}
