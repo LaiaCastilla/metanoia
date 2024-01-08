@@ -1,5 +1,5 @@
 .Footer {
-  overflow: hidden;
+  //   overflow: hidden;
   margin-bottom: 100px;
   &__content {
     display: flex;
@@ -101,13 +101,8 @@
     &__content {
       flex-direction: column;
       text-align: center;
-      //   &--logo {
-      //     text-align: center;
-      //   }
     }
-    // &__title {
-    //   text-align: center;
-    // }
+
     &__list {
       img {
         display: none;
@@ -118,3 +113,34 @@
     }
   }
 }
+
+// responsive phone
+
+@media (max-width: 576px) {
+  .Footer {
+    &__content {
+      gap: 20px;
+      position: relative;
+
+      &--logo {
+        img {
+          width: 195px;
+          height: 195px;
+        }
+      }
+    }
+    &__title {
+      font-size: 60px;
+    }
+    &__list {
+      font-size: 25px;
+    }
+    &__logos {
+      margin-top: 10px;
+    }
+    &__signature {
+      font-size: 12px;
+    }
+  }
+}
+
