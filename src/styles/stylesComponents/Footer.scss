@@ -1,4 +1,5 @@
 .Footer {
+  overflow: hidden;
   margin-bottom: 100px;
   &__content {
     display: flex;
@@ -94,4 +95,26 @@
   }
 }
 
-// 
+// smaller tablet when vertical
+@media (max-width: 930px) {
+  .Footer {
+    &__content {
+      flex-direction: column;
+      text-align: center;
+      //   &--logo {
+      //     text-align: center;
+      //   }
+    }
+    // &__title {
+    //   text-align: center;
+    // }
+    &__list {
+      img {
+        display: none;
+      }
+    }
+    ul {
+      padding: 0px;
+    }
+  }
+}
