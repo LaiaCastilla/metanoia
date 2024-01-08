@@ -22,9 +22,15 @@ function App() {
           <Footer />
         </div>
       ) : page === "hypno" ? (
-        <Hypnotherapie />
+        <div>
+          <Hypnotherapie />
+          <Footer />
+        </div>
       ) : page === "reiki" ? (
-        <Reiki />
+        <div>
+          <Reiki />
+          <Footer />
+        </div>
       ) : null}
 
       <div className="container-fluid"></div>
