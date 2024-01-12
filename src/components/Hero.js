@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/stylesComponents/Hero.scss";
-import logo from "../logo.svg";
+// import logo from "../logo.svg";
+import metanoialogo from "../metanoia.svg";
 
 function Hero(props) {
   function toHypno(event) {
@@ -16,7 +17,7 @@ function Hero(props) {
     <div className="Hero">
       <div className="Hero__content container-fluid">
         <img
-          src={logo}
+          src={metanoialogo}
           alt="Metanoia logo"
           className="Hero__content--logo d-inline-block order-sm-2"
         />

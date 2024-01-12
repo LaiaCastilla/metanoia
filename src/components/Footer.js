@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../logo.svg";
+import metanoia from "../metanoia.svg";
 import facebook from "../img/logos/facebook.svg";
 import instagram from "../img/logos/instagram.svg";
 
@@ -10,7 +11,7 @@ function Footer() {
     <div className="Footer container-fluid">
       <div className="Footer__content">
         <div className="Footer__content--logo">
-          <img src={logo} alt="metanoia therapy" />
+          <img src={metanoia} alt="metanoia therapy" />
         </div>
         <div className="Footer__content--text">
           <h2 className="Footer__title">METANOIA THERAPY</h2>

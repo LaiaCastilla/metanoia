@@ -3,7 +3,8 @@ import React from "react";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
-import logo from "../logo.svg";
+// import logo from "../logo.svg";
+import metanoialogo from "../metanoia.svg";
 import "../styles/stylesComponents/NavigationBar.scss";
 
 function NavigationBar(props) {
@@ -33,7 +34,7 @@ function NavigationBar(props) {
         {/* <Container> */}
         <Navbar.Brand href="#home" onClick={toHome}>
           <img
-            src={logo}
+            src={metanoialogo}
             alt="Metanoia logo"
             width="30"
             height="30"
