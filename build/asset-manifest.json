@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.944b18eb.css",
-    "main.js": "/static/js/main.c5e0782e.js",
+    "main.js": "/static/js/main.76048c32.js",
     "static/js/787.13249a11.chunk.js": "/static/js/787.13249a11.chunk.js",
     "static/media/womanmountain.jpg": "/static/media/womanmountain.daf6092b5261c70512c7.jpg",
     "static/media/eucalipto.png": "/static/media/eucalipto.d58e5f12413d6c26981d.png",
@@ -36,11 +36,11 @@
     "static/media/facebook.svg": "/static/media/facebook.8c94c5e87c6436cfac6cad78f0d29d86.svg",
     "static/media/HypnoElipse.svg": "/static/media/HypnoElipse.fc77db55b968f1fdd23653a3928f7b92.svg",
     "main.944b18eb.css.map": "/static/css/main.944b18eb.css.map",
-    "main.c5e0782e.js.map": "/static/js/main.c5e0782e.js.map",
+    "main.76048c32.js.map": "/static/js/main.76048c32.js.map",
     "787.13249a11.chunk.js.map": "/static/js/787.13249a11.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.944b18eb.css",
-    "static/js/main.c5e0782e.js"
+    "static/js/main.76048c32.js"
   ]
 }

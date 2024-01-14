@@ -54,7 +54,12 @@ function Footer() {
 
       <div className="Footer__signature">
         Conçu et developpé par
-        <a href="https://laiacastilla.com/" target="_blank" rel="noreferrer">
+        <a
+          href="https://laiacastilla.com/"
+          target="_blank"
+          rel="noreferrer"
+          title="le portfolio de la développeuse"
+        >
           {" "}
           Laia
         </a>
