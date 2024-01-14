@@ -1,8 +1,8 @@
 import React from "react";
 import circle from "../img/decor/HypnoElipse.svg";
 import leaf1 from "../img/decor/HypnoLeaf1.svg";
-import hypno from "../img/decor/HypnoPic.svg";
-import aeros from "../img/decor/aeros.svg";
+import hypno from "../img/decor/HypnoPic.png";
+import aeros from "../img/decor/aeros.png";
 
 import "../styles/stylesComponents/Hypnotherapie.scss";
 import Image from "react-bootstrap/Image";

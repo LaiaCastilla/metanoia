@@ -2,7 +2,7 @@ import React from "react";
 import paint from "../img/decor/AboutPaint.svg";
 import leaf1 from "../img/decor/AboutLeaf1.svg";
 import leaf2 from "../img/decor/AboutLeaf2.svg";
-import eucalipto from "../img/decor/eucalipto.svg";
+import eucalipto from "../img/decor/eucalipto.png";
 import leaf3 from "../img/decor/AboutLeaf3.svg";
 
 import "../styles/stylesComponents/About.scss";

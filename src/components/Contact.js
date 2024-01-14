@@ -1,9 +1,9 @@
 import React from "react";
-import olive from "../img/decor/olive.svg";
+import olive from "../img/decor/olive.png";
 import leaf1 from "../img/decor/ContactLeaf1.svg";
 import leaf2 from "../img/decor/ContactLeaf2.svg";
 import paint from "../img/decor/ContactPaint.svg";
-import audrey from "../img/Audrey.svg";
+import audrey from "../img/Audrey.png";
 import facebook from "../img/logos/facebook.svg";
 import instagram from "../img/logos/instagram.svg";
 

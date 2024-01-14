@@ -5,8 +5,8 @@ import CarouselItem from "react-bootstrap/CarouselItem";
 import circle from "../img/decor/HypnoElipse.svg";
 import leaf1 from "../img/decor/ReikiLeaf1.svg";
 import leaf2 from "../img/decor/ReikiLeaf2.svg";
-import reiki from "../img/decor/ReikiPic.svg";
-import poppy from "../img/decor/poppy.svg";
+import reiki from "../img/decor/ReikiPic.png";
+import poppy from "../img/decor/poppy.png";
 
 import "../styles/stylesComponents/Reiki.scss";
 import Image from "react-bootstrap/Image";
