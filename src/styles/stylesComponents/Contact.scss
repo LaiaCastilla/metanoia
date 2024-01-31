@@ -5,7 +5,7 @@
   display: flex;
   flex-direction: column;
   position: relative;
-  height: 2000px;
+  height: 1400px;
 }
 .citation {
   max-width: 100%;
@@ -58,11 +58,12 @@
     font-family: var(--title);
     position: relative;
     top: -450px;
+
     color: #000;
     text-align: center;
     font-size: 90px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     line-height: normal;
     z-index: 9;
   }
@@ -143,7 +144,7 @@
 // Move paint stroke when the screen is bigger than 2150px
 @media (min-width: 2150px) {
   .contact {
-    height: 2300px;
+    height: 1500px;
   }
   .contact__content--paint {
     top: -250px;

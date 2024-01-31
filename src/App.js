@@ -3,7 +3,7 @@ import NavigationBar from "./components/NavigationBar";
 
 import "./styles/App.css";
 import Home from "./components/Home";
-import About from "./components/About";
+import Contact from "./components/Contact";
 import Hypnotherapie from "./components/Hypnotherapie";
 import Reiki from "./components/Reiki";
 import Footer from "./components/Footer";
@@ -18,7 +18,7 @@ function App() {
         <Home page={page} setPage={setPage} />
       ) : page === "about" ? (
         <div>
-          <About />
+          <Contact />
           <Footer />
         </div>
       ) : page === "hypno" ? (

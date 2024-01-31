@@ -1,4 +1,5 @@
 import React from "react";
+import olive from "../img/decor/olive.png";
 import paint from "../img/decor/AboutPaint.svg";
 import leaf1 from "../img/decor/AboutLeaf1.svg";
 import leaf2 from "../img/decor/AboutLeaf2.svg";
@@ -10,6 +11,17 @@ import "../styles/stylesComponents/About.scss";
 function About() {
   return (
     <div className="About">
+      <div className="citation">
+        <img
+          src={olive}
+          alt="olive"
+          className="citation__olive img-fluid"
+          width="100%"
+        />
+        <div className="citation__text">
+          “Vous êtes le plus beau projet sur lequel vous pouvez travailler.”
+        </div>
+      </div>
       <div className="container-fluid">
         <img src={paint} alt="paint" className="About__paint" width="100%" />
         <img src={leaf1} alt="leaf" className="About__leaf1" />
